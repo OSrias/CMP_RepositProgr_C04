@@ -1,0 +1,36 @@
+﻿
+@import "ResetSimpleCSS.css";
+
+.container {
+    display: flex;
+    background-color: brown;
+}
+
+/*Só as divs cujo parent seja 1 container*/
+
+.container > div {
+    margin: 20px;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+.div1 {
+    width: 25%;
+    background-color: cadetblue;
+}
+
+
+.div2 {
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+
+.div3 {
+    width: 25%;
+    background-color: darkgray;
+}
+
+
+ {
+}

@@ -1,0 +1,60 @@
+﻿<style>
+        p {
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
+ESTO ESTÁ EN EL HEAD Y ES PARA DAR ESTILO A TODOS LOS SUBTITULOS DE UNA SOLA QUE ESTAN EN EL BODY
+
+
+
+<style>
+        .formatarNegrito
+        {
+            font-weight: bold;           
+        }
+
+        .formatarItalico
+        {
+            font-style: italic;           
+        }
+
+        .formatarSublinhado
+        {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+ESTO DA EL ESTILO PARA CADA UNO DE LOS SUBTITULOS VA UNO UNO.
+
+
+
+
+color: olivedrab;
+color: #b97200;
+color: rgb(172, 0, 230); 
+color: hsl(15, 100%, 60%);
+OPCIONES PARA LLAMAR COLORES
+
+
+
+
+
+CSS-TRICKS
+https://css-tricks.com/centering-css-complete-guide/
+
+
+
+
+1rem son 16px (para el tamanho de letra; 16px es tamanho comun normal)
+
+
+
+tabelas com formatol HTML
+
+Grid son tablas con formato CSS
+
+
+
+https://screensiz.es/phone

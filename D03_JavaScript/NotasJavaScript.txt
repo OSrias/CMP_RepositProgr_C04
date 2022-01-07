@@ -1,0 +1,32 @@
+﻿java script é para interangir com o utilizador, vem para os formularios
+
+JS interage com o browser, lenguagem interpretada. é mais rápida porque nao tem q fazer pedidos ao servidor , mas tem limitações como interangir com bd
+css interage com o servidor
+
+
+    <br />
+    <br />
+    <p>
+        <b></b>        <i></i>
+    </p>
+
+ <a href=""></a>
+
+     [ ]        '       { }            \
+    « »         ’       /               ˄
+    <int>       -->     ==>             <--
+    <==         ==      !=               % 
+    && (significa e)           || (significa ou)      \\               ˚          º
+
+
+
+    JavaScript variables
+https://www.w3schools.com/js/js_variables.asp
+https://www.w3schools.com/js/js_let.asp
+
+
+O JS permite cambiar o texto e o formato do HTML 
+
+
+atributos (se ponen en rojo)
+

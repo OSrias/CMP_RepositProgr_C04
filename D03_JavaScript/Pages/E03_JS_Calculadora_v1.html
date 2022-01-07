@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Calculadora Simples V1 </title>
+    <script src="../Scripts/E03_JS_Calculadora_v1.js"></script>
+</head>
+
+<body>
+    <h1> Calculadora Simples </h1>
+
+    <form name="CalculadoraSimples">
+        <table>
+            <tr>
+                <td>
+                <td> Valor 1 </td>
+                <td>
+                    <input id="Valor1"
+                           type="number"
+                           maxlength="100"
+                           size="50">
+                    <script>
+                        let valor1 =" ";
+                    </script>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <td> Valor 2 </td>
+                <td>
+                    <input id="Valor2"
+                           type="number"
+                           maxlength="100"
+                           size="50">
+                    <script>
+                        let valor2=" ";
+                    </script>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <td> Operação </td>
+                <td>
+                    <input type="button" id="soma" value="+" onClick="calc(this)"> 
+                    <input type="button" id="substrair" value="-" onClick="calc(this)">
+                    <input type="button" id="multiplicar" value="*" onClick="calc(this)">
+                    <input type="button" id="dividir" value="/" onClick="calc(this)">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <td> Resultado </td>
+                <td>
+                    <input id="calc" type="number" size="50" var="opera">
+                    <script>
+                        let resultado = (valor1, operação, valor2);
+                        document.getElementById("resultado").innerHTML= resultado;
+                    </script>
+                </td>
+            </tr>
+        </table>
+
+        <div id="right">
+            <img  id="right" src="../Content/Calculadora-de-Mesa.jpg" width="100" height="100" />
+        </div>
+
+    </form>
+
+   
+
+    <br />
+</body>
+</html>

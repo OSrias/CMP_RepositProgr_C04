@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Formulario Pessoa versão 2 </title>
+    <script src="../Scripts/E03_FormPessoa2.js"></script>
+</head>
+
+<body onload="LoadFormP2();">
+    <form name="FormP2">
+        <style>
+            .Required {
+                color: #FF0000;
+            }
+        </style>
+
+        <table>
+            <tr>
+                <td>
+                <td> Nome <span class="Required">*</span></td>
+                <td>
+                    <input id="inputNome"
+                           type="text"
+                           maxlength="100"
+                           size="50"
+                           onblur="ValidateNome();">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <td>E-Mail <span class="Required">*</span></td>
+                <td>
+                    <input id="inputEMail"
+                           type="text"
+                           maxlength="100"
+                           size="50"
+                           onblur="ValidateEMail();">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <td> Telefone <span class="Required">*</span></td>
+                <td>
+                    <input id="inputTelefone"
+                           type="text"
+                           maxlength="9"
+                           onblur="ValidateForm();">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                <td> NIF <span class="Required">*</span></td>
+                <td>
+                    <input id="inputNIF"
+                           type="text"
+                           maxlength="10"
+                           onblur="ValidateForm();">
+                </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td>&nbsp;</td>                
+                <td>
+                    <input id="buttonSubmit"
+                           type="button"
+                           value="Validar"
+                           onblur="ValidateForm();">
+                    <input id="buttonReset"
+                           type="button"
+                           value="Reiniciar"
+                           onblur="ResetForm();">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
